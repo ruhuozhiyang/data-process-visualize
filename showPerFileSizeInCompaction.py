@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from numpy import long
 
-default_m_filename = "default-compaction-record-4"
+default_m_filename = "default-compaction-record-3"
 better_m_filename = "better-compaction-record-3"
 default_num = []
 default_filesizes = []
