@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 from numpy import long
 
-default_m_filename = "default-compaction-record-3"
-better_m_filename = "better-compaction-record-3"
+default_m_filename = "default-compaction-record-2"
+better_m_filename = "dp-compaction-record-1000w-40t-2"
 default_num = []
 default_filesizes = []
 better_num = []
@@ -68,7 +68,7 @@ for xe, ye in zip(better_num, better_filesizes):
         plt.scatter(xe, miny, color='red')
         if maxy > miny:
             if f1 == 0:
-                plt.plot([xe, xe], [miny, maxy], color='red', label='better', linestyle='dashdot')
+                plt.plot([xe, xe], [miny, maxy], color='red', label='dp-store', linestyle='dashdot')
             else:
                 plt.plot([xe, xe], [miny, maxy], color='red', linestyle='dashdot')
             f1 = f1 + 1

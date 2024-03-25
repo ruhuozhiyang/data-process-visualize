@@ -7,7 +7,7 @@ CompactionInputFileCount_num_opss=[]
 
 def metricTask():
     response = requests.get(
-        'http://10.26.32.89:18020/jmx'
+        'http://210.72.11.1:20020/jmx'
     )
     compactedOutputBytes = 0;
     compactedInputBytes = 0;
